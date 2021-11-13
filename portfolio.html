@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="./css/styles.css">
-<link rel="stylesheet" href="./css/modern-normalize.css">
 </head>
 <body>
     <header class="header">
+        <div class="container header-container">
         <!-- Top line -->
         <a class="header-btm link" href="WebStudio"><span class="btm-first">Web</span>Studio</a>
         <nav class="header-nav">
@@ -28,17 +29,21 @@
                 </li>
             </ul>
         </nav>
+        <div class="header-contact">
         <ul class="header-item-list text">
             <li class="header-link">
                 <a class="header-contact-list link" href="mailto:info@example.com">info@devstudio.com</a>
             </li>
             <li class="header-link">
-                <a class="header-contact-list link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="header-contact-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+        </div>
+        </div>
     </header>
     <main class="main">
-        <section class="main-section">
+        <div class="container">
+        <section class="main-section section">
             <h1 hidden>Кнопки</h1>
         <ul class="main-btm text">
             <li class="main-btm-text link"><button class="main-btm-title" type="button">Все</button></li>
@@ -48,39 +53,50 @@
             <li class="main-btm-text link"><button class="main-btm-title" type="button">Маркетинг</button></li>
         </ul>
                         <!-- My team -->
-                        <ul class="main-title-text text">
+                        <ul class="main-title-text text container">
                             <li class="main-jpg link"><a class="link" href=""><img src="img-portfolio/img1.jpg" alt="Технокряк" width="370" height="294">
-                            <h2 class="main-title">Технокряк</h2>
-                            <p class="main-text">Веб-сайт</p></a></li>
+                            <div class="main-after-title">
+                                <h2 class="main-title">Технокряк</h2>
+                            <p class="main-text">Веб-сайт</p></a></div></li>
                             <li class="main-jpg"><a class="link" href=""><img src="img-portfolio/img2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-                            <h2 class="main-title">Постер New Orlean vs Golden Star</h2>
-                            <p class="main-text">Дизайн</p></a></li>
+                            <div class="main-after-title">
+                                <h2 class="main-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="main-text">Дизайн</p></a></div></li>
                             <li class="main-jpg"><a class="link" href=""><img src="img-portfolio/img3.jpg" alt="Ресторан Seafood" width="370" height="294">
-                            <h2 class="main-title">Ресторан Seafood</h2>
-                            <p class="main-text">Приложение</p></a></li>
+                            <div class="main-after-title">
+                                <h2 class="main-title">Ресторан Seafood</h2>
+                            <p class="main-text">Приложение</p></a></div></li>
                             <li class="main-jpg"><a class="link" href=""><img src="img-portfolio/img4.jpg" alt="Проект Prime" width="370" height="294">
-                            <h2 class="main-title">Проект Prime</h2>
-                            <p class="main-text">Маркетинг</p></a></li>
+                            <div class="main-after-title">
+                                <h2 class="main-title">Проект Prime</h2>
+                            <p class="main-text">Маркетинг</p></a></div></li>
                             <li class="main-jpg"><a class="link" href=""><img src="img-portfolio/img5.jpg" alt="Проект Boxes" width="370" height="294">
-                            <h2 class="main-title">Проект Boxes</h2>
-                            <p class="main-text">Приложение</p></a></li>
+                            <div class="main-after-title">
+                                <h2 class="main-title">Проект Boxes</h2>
+                            <p class="main-text">Приложение</p></a></div></li>
                             <li class="main-jpg"><a class="link" href=""><img src="img-portfolio/img6.jpg" alt="Inspiration has no Borders" width="370" height="294">
-                            <h2 class="main-title">Inspiration has no Borders</h2>
-                            <p class="main-text">Веб-сайт</p></a></li>
+                            <div class="main-after-title">
+                                <h2 class="main-title">Inspiration has no Borders</h2>
+                            <p class="main-text">Веб-сайт</p></a></div></li>
                             <li class="main-jpg"><a class="link" href=""><img src="img-portfolio/img7.jpg" alt="Издание Limited Edition" width="370" height="294">
-                            <h2 class="main-title">Издание Limited Edition</h2>
-                            <p class="main-text">Дизайн</p></a></li>
+                            <div class="main-after-title">
+                                <h2 class="main-title">Издание Limited Edition</h2>
+                            <p class="main-text">Дизайн</p></a></div></li>
                             <li class="main-jpg"><a class="link" href=""><img src="img-portfolio/img8.jpg" alt="Проект LAB" width="370" height="294">
-                            <h2 class="main-title">Проект LAB</h2>
-                            <p class="main-text">Маркетинг</p></a></li>
+                            <div class="main-after-title">
+                                <h2 class="main-title">Проект LAB</h2>
+                            <p class="main-text">Маркетинг</p></a></div></li>
                             <li class="main-jpg"><a class="link" href=""><img src="img-portfolio/img9.jpg" alt="Growing Business" width="370" height="294">
-                            <h2 class="main-title">Growing Business</h2>
-                            <p class="main-text">Приложение</p></a></li>
+                            <div class="main-after-title">
+                                <h2 class="main-title">Growing Business</h2>
+                            <p class="main-text">Приложение</p></a></div></li>
                         </ul>
             
     </section>
+    </div>
     </main>
-    <footer class="footer">
+    <footer class="footer section">
+        <div class="container">
         <!-- Contacts -->
         <a class="footer-link text link" href="WebStudio"><span class="btm-first">Web</span>Studio</a>
         <address class="footer-title">
@@ -92,6 +108,7 @@
                 <li class="footer-text"><a class="footer-item-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 </html>

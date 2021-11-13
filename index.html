@@ -9,38 +9,46 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
-        <link rel="stylesheet" href="./css/styles.css">
-        <link rel="stylesheet" href="./css/modern-normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="./css/styles.css">
+        
 
 </head>
 <body>
     <header class="header">
-        <!-- Top line -->
-        <a class="header-btm link" href="WebStudio"><span class="btm-first">Web</span>Studio</a>
-        <nav class="header-nav">
-            <ul class="header-list text">
-                <li class="header-item">
-                    <a class="header-item-link link" href="./index.html">Студия</a>
-                </li>
-                <li class="header-item">
-                    <a class="header-item-link link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="header-item">
-                    <a class="header-item-link link" href="Контакты">Контакты</a>
-                </li>
-            </ul>
-        </nav>
-        <ul class="header-item-list text">
-            <li class="header-link">
-                <a class="header-contact-list link" href="mailto:info@example.com">info@devstudio.com</a>
-            </li>
-            <li class="header-link">
-                <a class="header-contact-list link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-        </ul>
+        <div class="container header-container">
+            <!-- Top line -->
+            <a class="header-btm link" href="WebStudio"><span class="btm-first">Web</span>Studio</a>
+            <nav class="header-nav">
+                <ul class="header-list text">
+                    <li class="header-item">
+                        <a class="header-item-link link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-item-link link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-item-link link" href="Контакты">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <ul class="header-item-list text">
+                    <li class="header-link">
+                        <a class="header-contact-list link" href="mailto:info@example.com">info@devstudio.com</a>
+                    </li>
+                    <li class="header-link">
+                        <a class="header-contact-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
         <main>
-        <section class="hero">
+            <div class="container">
+        <section class="hero section">
             <!-- Name -->
             <h1 class="hero-text">ЭФФЕКТИВНОЕ РЕШЕНИЕ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
                 <button type="button" class="hero-btm">Заказать Услугу</button>
@@ -62,7 +70,7 @@
                         <p class="about-pre-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
             </ul>
         </section>
-        <section class="gallery">
+        <section class="gallery section">
             <h2 class="gallery-text">Чем мы занимаемся</h2>
             <ul class="gallery-title">
                 <li class="gallery-after-title text"><img class="gallery-jpg" src="img/img1.png" alt="Work" width="370" height="294"></li>
@@ -70,7 +78,7 @@
                 <li class="gallery-after-title text"><img class="gallery-jpg" src="img/box3.png" alt="Work" width="370" height="294"></li>
             </ul>
         </section>
-        <section class="about-title">
+        <section class="about-title-section section">
                 <!-- My team -->
             <h2 class="about-pre-title">Наша команда</h2>
             <ul class="about-list">
@@ -88,19 +96,24 @@
                 <p class="about-title-link" lang="en">UI Designer</p></li>
             </ul>
         </section>
+        </div>
         </main>
-    <footer class="footer">
-        <!-- Contacts -->
-        <a class="footer-link text link" href="WebStudio"><span class="btm-first">Web</span>Studio</a>
-        <address class="footer-title">
-            <ul class="footer-item-title text">
-                <li class="footer-text"><a class="footer-item-link link" href="г.Киев,пр-тЛесиУкраинки,26">г. Киев, пр-т
-                        Леси Украинки, 26</a> </li>
-                <li class="footer-text"><a class="footer-item-link link" href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li class="footer-text"><a class="footer-item-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
-            </ul>
-        </address>
+    <footer class="footer section">
+        <div class="container">
+            <!-- Contacts -->
+            <a class="footer-link text link" href="WebStudio"><span class="btm-first">Web</span>Studio</a>
+            <address class="footer-title">
+                <ul class="footer-item-title text">
+                    <li class="footer-text"><a class="footer-item-link link" href="г.Киев,пр-тЛесиУкраинки,26">г. Киев, пр-т
+                            Леси Украинки, 26</a> </li>
+                    <li class="footer-text"><a class="footer-item-link link"
+                            href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li class="footer-text"><a class="footer-item-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
