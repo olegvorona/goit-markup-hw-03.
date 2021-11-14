@@ -177,8 +177,8 @@ body {
   padding: 6px 22px;
 }
 
-.main-btm-text {
-  margin: 8px;
+.main-btm-text:not(:last-child) {
+  margin-right: 8px;
 }
 
 .main-btm-title {
@@ -238,6 +238,8 @@ body {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .btm-first {
@@ -258,13 +260,15 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: var(--second-footer-btm);
-  padding-top: 60px;
 }
 
 .footer-text {
   line-height: 1.71;
   color: var(--footer-text-color);
-  margin: 9px;
+}
+
+.footer-text:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-item-link {
@@ -282,6 +286,8 @@ body {
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-text {
