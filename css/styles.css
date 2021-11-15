@@ -322,12 +322,11 @@ body {
   font-family: inherit;
   text-align: center;
   margin-top: 30px;
-  border-radius: 4px;
+  padding: 10px 32px;
 }
 
 .about-item-text {
   display: flex;
-  padding-top: 94px;
 }
 
 .about-item:not(:last-child) {
@@ -344,6 +343,10 @@ body {
 .about-pre-text {
   line-height: 1.71;
   color: var(--index-main-pre-text);
+}
+
+.gallery {
+  padding-bottom: 94px;
 }
 
 .gallery-text {
@@ -375,6 +378,7 @@ body {
   line-height: 1.16;
   text-align: center;
   color: var(--index-pre-title);
+  margin-bottom: 50px;
 }
 
 .about-list {
