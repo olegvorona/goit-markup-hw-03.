@@ -420,7 +420,7 @@ body {
   color: var(--index-title-link);
 }
 
-.about-text {
+.about-text-contein {
   padding-top: 30px;
   padding-bottom: 30px;
 }
